@@ -1,7 +1,7 @@
 Summary:	Displays extended CPU information
 Summary(pl):	Wy¶wietla rozszerzon± informacjê o procesorze
 Name:		x86info
-Version:	1.9
+Version:	1.10
 Release:	1
 License:	GPL v2
 Group:		Applications
