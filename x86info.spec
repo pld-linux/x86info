@@ -1,5 +1,5 @@
 Summary:	Displays extended CPU information
-Summary(pl):	Wy¶wietla rozszerzon± informacjê o procesorze
+Summary(pl):	Wy¶wietla rozszerzone informacje o procesorze
 Name:		x86info
 Version:	1.10
 Release:	1
@@ -24,10 +24,10 @@ dowiedzieæ wielu wiêcej informacji. Mo¿e odczytywaæ rejestry
 specyficzne dla danego modelu, seriê wafla krzemowego i wiele wiêcej.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
-%{__make} CC="%{__cc}"
+%{__make} CC="%{__cc}" CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
