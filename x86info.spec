@@ -12,10 +12,16 @@ ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Unlike other `cpuinfo' tools which just parse /proc/cpuinfo, x86info probes the CPU registers to find out a lot more information. It can discover the contents of model-specific registers, discover CPU silicon revisions, and lots more.
+Unlike other `cpuinfo' tools which just parse /proc/cpuinfo, x86info
+probes the CPU registers to find out a lot more information. It can
+discover the contents of model-specific registers, discover CPU
+silicon revisions, and lots more.
 
 %description -l pl
-W przeciwieñstwie do innych narzêdzi `cpuinfo', które tylko parsuj± /proc/cpuinfo, x86info sprawdza rejestry procesorów, aby siê dowiedzieæ wielu wiêcej informacji. Mo¿e odczytywaæ rejestry specyficzne dla danego modelu, seriê wafla krzemowego i wiele wiêcej.
+W przeciwieñstwie do innych narzêdzi `cpuinfo', które tylko parsuj±
+/proc/cpuinfo, x86info sprawdza rejestry procesorów, aby siê
+dowiedzieæ wielu wiêcej informacji. Mo¿e odczytywaæ rejestry
+specyficzne dla danego modelu, seriê wafla krzemowego i wiele wiêcej.
 
 %prep
 %setup  -q
