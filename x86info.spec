@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	http://www.codemonkey.org.uk/x86info/%{name}-%{version}.tgz
+# Source0-md5:	c383845a7cbaa9c9e9784b1469e19950
 URL:		http://sourceforge.net/projects/x86info/
 Requires:	dev >= 2.8.0-25
 ExclusiveArch:	%{ix86}
