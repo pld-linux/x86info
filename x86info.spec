@@ -1,7 +1,7 @@
 Summary:	Displays extended CPU information
 Summary(pl):	Wy¶wietla rozszerzone informacje o procesorze
 Name:		x86info
-Version:	1.10
+Version:	1.11
 Release:	1
 License:	GPL v2
 Group:		Applications
@@ -41,4 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README TODO
-%attr(754,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
