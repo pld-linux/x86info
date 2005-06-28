@@ -1,15 +1,13 @@
 Summary:	Displays extended CPU information
 Summary(pl):	Wy¶wietla rozszerzone informacje o procesorze
 Name:		x86info
-Version:	1.12
-%define	bver	b
-Release:	0.%{bver}.1
+Version:	1.13
+Release:	1
 License:	GPL v2
 Group:		Applications
-Source0:	http://www.codemonkey.org.uk/projects/x86info/%{name}-%{version}%{bver}.tgz
-# Source0-md5:	4f0ce10a00db5778b16a09f68f5f6767
+Source0:	http://www.codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
+# Source0-md5:	fbc21dffe80757d55af8ec689a2c3c10
 URL:		http://www.codemonkey.org.uk/projects/x86info/
-Requires:	dev >= 2.8.0-25
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,7 +24,7 @@ dowiedzieæ wielu wiêcej informacji. Mo¿e odczytywaæ rejestry
 specyficzne dla danego modelu, seriê wafla krzemowego i wiele wiêcej.
 
 %prep
-%setup -q -n %{name}-%{version}%{bver}
+%setup -q
 
 %build
 %{__make} \
