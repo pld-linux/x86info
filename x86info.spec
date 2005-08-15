@@ -27,7 +27,7 @@ specyficzne dla danego modelu, seriê wafla krzemowego i wiele wiêcej.
 %setup -q
 
 %build
-%{__make} \
+%{__make} x86info \
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags}"
 
