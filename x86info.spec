@@ -1,5 +1,5 @@
 Summary:	Displays extended CPU information
-Summary(pl.UTF-8):   Wyświetla rozszerzone informacje o procesorze
+Summary(pl.UTF-8):	Wyświetla rozszerzone informacje o procesorze
 Name:		x86info
 Version:	1.20
 Release:	1
