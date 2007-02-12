@@ -1,5 +1,5 @@
 Summary:	Displays extended CPU information
-Summary(pl):	Wy¶wietla rozszerzone informacje o procesorze
+Summary(pl.UTF-8):   WyÅ›wietla rozszerzone informacje o procesorze
 Name:		x86info
 Version:	1.20
 Release:	1
@@ -17,11 +17,11 @@ probes the CPU registers to find out a lot more information. It can
 discover the contents of model-specific registers, discover CPU
 silicon revisions, and lots more.
 
-%description -l pl
-W przeciwieñstwie do innych narzêdzi `cpuinfo', które tylko parsuj±
-/proc/cpuinfo, x86info sprawdza rejestry procesorów, aby siê
-dowiedzieæ wielu wiêcej informacji. Mo¿e odczytywaæ rejestry
-specyficzne dla danego modelu, seriê wafla krzemowego i wiele wiêcej.
+%description -l pl.UTF-8
+W przeciwieÅ„stwie do innych narzÄ™dzi `cpuinfo', ktÃ³re tylko parsujÄ…
+/proc/cpuinfo, x86info sprawdza rejestry procesorÃ³w, aby siÄ™
+dowiedzieÄ‡ wielu wiÄ™cej informacji. MoÅ¼e odczytywaÄ‡ rejestry
+specyficzne dla danego modelu, seriÄ™ wafla krzemowego i wiele wiÄ™cej.
 
 %prep
 %setup -q
