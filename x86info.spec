@@ -1,13 +1,13 @@
 Summary:	Displays extended CPU information
 Summary(pl.UTF-8):	Wyświetla rozszerzone informacje o procesorze
 Name:		x86info
-Version:	1.25
+Version:	1.27
 Release:	1
 License:	GPL v2
 Group:		Applications
-Source0:	http://www.codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
-# Source0-md5:	29143559c611272ec2045361a6ffd813
-URL:		http://www.codemonkey.org.uk/projects/x86info/
+Source0:	http://codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
+# Source0-md5:	a618e4ac1b0aba44ee26aacad3611f1a
+URL:		http://codemonkey.org.uk/projects/x86info/
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
