@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	http://codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
 # Source0-md5:	8e49b5e08e82fe6b64cac99d50139ccf
 URL:		http://codemonkey.org.uk/projects/x86info/
+BuildRequires:	pciutils-devel
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
