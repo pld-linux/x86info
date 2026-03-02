@@ -2,7 +2,7 @@ Summary:	Displays extended CPU information
 Summary(pl.UTF-8):	Wyświetla rozszerzone informacje o procesorze
 Name:		x86info
 Version:	1.30
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications
 Source0:	http://codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
